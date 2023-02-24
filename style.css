@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+  html {
+    font-size: 62.5%;
+  }
+  *:not(i) {
+    font-family: "Poppins", sans-serif;
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    background-color: #F5F5F5;
+    padding: 3rem 5rem;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  nav a #logo {
+    font-size: 2rem;
+     font-weight: 800;
+
+   }
+  nav a {
+    font-size: 1.8rem;
+    text-decoration: none;
+  }
+
+  nav a#daftar {
+    color: #8BF5FA;
+    font-weight: 600;
+  }
+  nav a#masuk {
+    color: #ffffff;
+    font-weight: 600;
+  }
+  nav ul a {
+    color: #332C39;
+    font-weight: 600;
+  }
+  nav ul li{
+    padding: 10px;
+  }
+nav ul li#box-daftar{
+  border: 1px solid #8BF5FA;
+  border-radius: 10px;
+}
+nav ul li#box-masuk{
+  background-color: #8BF5FA;
+  border: 1px solid #8BF5FA;
+  border-radius: 10px;
+  
+}
+  nav ul a:hover {
+    border-bottom: 2px solid #8BF5FA;
+  }
+  
+  section#home {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  #ham-menu {
+    display: none;
+  }
+.row{
+  display: flex;
+  padding-top: 20vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
+}
+.col-2{
+  flex: 50%;
+}
+body{
+  background-color: #F5F5F5;
+}
+
+
+#cover{
+  max-width: 100%;
+  max-height: 100%;
+}
+h2{
+  font-size: 3rem;
+}
+.desk{
+  width: 70%;
+  
+}
+p{
+  text-align: left;
+}
+.col2 .avatar{
+  display: flex;
+}
+.avatarbox{
+  display: flex;
+}
+.avatarbox img{
+  margin-left: -20px;
+  border-radius: 50%;
+  width: 25%;
+  height: 25%;
+  
+}
+#review{
+  margin-top: -10%;
+}
+.col-2 .ulasan{
+  margin-left: -20%;
+}
+.checked {
+  color: orange;
+}
+button{
+  margin-top: 3%;
+  width: 50%;
+  border-radius: 10px;
+  padding: 10px;
+  background-color:#8BF5FA ;
+  color: white;
+  font-size: 3vh;
+  border-color: #8BF5FA;
+}
+button:hover{
+  background-color:white ;
+  color: #8BF5FA;
+  font-size: 4vh;
+  border-color: white;
+}
